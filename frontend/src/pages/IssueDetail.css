@@ -1,0 +1,134 @@
+.issue-detail-page {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.issue-detail {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.issue-main {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.issue-title-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.issue-title-section h2 {
+  color: #333;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.issue-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.issue-meta-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 6px;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.meta-label {
+  font-size: 12px;
+  color: #999;
+  font-weight: 500;
+}
+
+.issue-description {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+}
+
+.issue-description h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.issue-description p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.comments-section {
+  margin-top: 30px;
+}
+
+.comments-section h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.comments-list {
+  margin-bottom: 30px;
+}
+
+.comment-item {
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.comment-header strong {
+  color: #333;
+}
+
+.comment-date {
+  font-size: 12px;
+  color: #999;
+}
+
+.comment-body {
+  color: #666;
+  line-height: 1.5;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+.comment-form button {
+  align-self: flex-start;
+}
+
