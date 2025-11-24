@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-## Backend Setup (5 minutes)
+## Backend Setup
 
 1. **Activate virtual environment**
    ```bash
@@ -37,7 +37,7 @@
    ```
    Backend runs on `http://localhost:8000`
 
-## Frontend Setup (3 minutes)
+## Frontend Setup
 
 1. **Install dependencies** (first time only)
    ```bash

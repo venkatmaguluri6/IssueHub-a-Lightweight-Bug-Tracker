@@ -2,6 +2,8 @@
 
 IssueHub is a minimal bug tracker where teams can create projects, file issues, comment on them, and track status. Built with Django REST Framework backend and React frontend.
 
+> **🚀 Quick Start**: Check out [QUICKSTART.md](QUICKSTART.md) for a fast setup guide.
+
 ## Features
 
 - **User Authentication**: Sign up, login, and logout with JWT tokens
@@ -155,6 +157,8 @@ IssueHub-a-Lightweight-Bug-Tracker/
 ```
 
 ## Setup Instructions
+
+> **💡 Tip**: For a quick setup guide, see [QUICKSTART.md](QUICKSTART.md). This section provides detailed instructions with explanations.
 
 ### Prerequisites
 
@@ -316,6 +320,8 @@ SQLite is used by default. No additional configuration needed. The database file
    Navigate to `http://localhost:5173` in your browser. You should see the login page.
 
 ## How to Run
+
+> **📖 Quick Reference**: For condensed commands and quick setup, see [QUICKSTART.md](QUICKSTART.md).
 
 ### Running the Backend
 
