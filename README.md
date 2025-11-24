@@ -712,21 +712,6 @@ After running the seed script, you can use these demo accounts:
     - Import from Jira, GitHub Issues
     - Backup/restore functionality
 
-## Live Demo (Optional)
-
-**Note**: This section would be filled in if a live deployment exists.
-
-If you have a live deployment, include:
-- **Live URL**: `https://issuehub-demo.example.com`
-- **Demo Credentials**: 
-  - Email: `demo@example.com`
-  - Password: `demo123`
-- **Status**: Active / Under Maintenance / Archived
-
-For deployment options, consider:
-- **Backend**: Heroku, Railway, DigitalOcean, AWS, Google Cloud
-- **Frontend**: Vercel, Netlify, GitHub Pages
-- **Database**: Managed PostgreSQL (AWS RDS, Heroku Postgres, etc.)
 
 ## Troubleshooting
 
