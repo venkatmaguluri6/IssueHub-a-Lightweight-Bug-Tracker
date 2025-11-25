@@ -96,6 +96,7 @@ function Projects() {
                 <h3>{project.name}</h3>
                 <p className="project-key">{project.key}</p>
                 {project.description && <p className="project-description">{project.description}</p>}
+                <p>{project.status}</p>
                 <div className="project-stats">
                   <span>{project.member_count || 0} members</span>
                 </div>

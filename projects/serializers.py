@@ -10,7 +10,7 @@ class ProjectSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Project
-        fields = ['id', 'name', 'key', 'description', 'created_at', 'member_count', 'maintainer_count']
+        fields = ['id', 'name', 'key', 'description', 'created_at', 'member_count', 'maintainer_count', 'status']
         read_only_fields = ['id', 'created_at']
 
     def get_member_count(self, obj):
