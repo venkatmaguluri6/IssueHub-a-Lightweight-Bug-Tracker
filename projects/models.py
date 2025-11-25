@@ -3,11 +3,16 @@ from django.conf import settings
 
 
 class Project(models.Model):
+    status_choice = [
+        ('active', 'active'),
+        ('Inactive', 'Inactive')
+    ]
     """Project model"""
     name = models.CharField(max_length=255)
     key = models.CharField(max_length=50, unique=True)  # Project key like "PROJ", "ISSUE"
     description = models.TextField(blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
+    status = models.CharField(max_length=20, choices=status_choice, default='active')
 
     class Meta:
         ordering = ['-created_at']
