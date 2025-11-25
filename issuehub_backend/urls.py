@@ -25,5 +25,5 @@ urlpatterns = [
     path('api/projects/<int:project_pk>/issues/', include('issues.urls')),  # Nested: /api/projects/2/issues/
     path('api/', include('projects.urls')),
     path('api/issues/', include('issues.urls')),  # Direct: /api/issues/
-    path('api/issues/<int:issue_pk>/comments/', include('comments.urls')),
+    path('api/issues/<int:issue_pk>/', include('comments.urls')),
 ]
